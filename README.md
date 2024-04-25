@@ -1,6 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Honor Hive - Empowering Fair and Transparent Elections
+
+## Introduction
+
+HonorHive is a web-based platform designed to empower organizations and communities with the ability to conduct fair and transparent elections while celebrating excellence and achievements. Our platform streamlines the election process, ensuring that each vote is counted accurately and that the results are transparent and accountable.
+
+## Key Features
+
+- Election Creation: Easily create elections for various purposes, from choosing leaders to recognizing outstanding individuals for their contributions.
+- Candidate Registration: Register candidates for each election, providing essential information to help voters make informed decisions.
+Voting Mechanism: Secure and transparent voting processes ensure that each vote is counted accurately and that the results reflect the will of the voters.
+- Election Closure: Once the voting period ends, the creator of the election can close it, providing access to voting statistics while maintaining transparency and accountability.
+
+## Target Audience
+
+- Organizations
+- Enthusiasts
+- Community Members
+
+## Benefits
+
+Major benefits includes:
+
+- Fair election: Voters are given a reason to vote a contestant
+- Secure election: Casted votes are unknown by no one else untill the end of the election
 
 ## Getting Started
+
+To get started with HonorHive, simply visit our website and explore our platform. Join us in honoring those who inspire us, drive positive change, and make a difference in the world. Together, let's celebrate excellence and build a brighter future for all.
+
+## Contribution
 
 First, run the development server:
 
@@ -15,22 +43,3 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
