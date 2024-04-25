@@ -1,0 +1,23 @@
+
+// Breakpoints
+
+/* Tablet and Smaller Desktop */
+@mixin md {
+    @media (min-width: 701px) and (max-width: 1120px) {
+        @content;
+    }
+}
+
+/* Mobile */
+@mixin sm {
+    @media (max-width: 700px) {
+        @content;
+    }
+}
+
+/* Mobile */
+@mixin lg {
+    @media (min-width: 1120px) {
+        @content;
+    }
+}
