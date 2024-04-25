@@ -1,4 +1,15 @@
 
+
+// Fonts
+@mixin font-props($size: 1rem, $weight: 400) {
+    font-family: var(--font-family, "Inter"), sans-serif;
+    font-optical-sizing: auto;
+    font-weight: $weight;
+    font-style: normal;
+    font-size: $size;
+}
+
+
 // Breakpoints
 
 /* Tablet and Smaller Desktop */

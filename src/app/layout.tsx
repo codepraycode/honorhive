@@ -1,11 +1,16 @@
+import "@/styles/style.scss";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import siteData from '@/site.json';
+
 
 const inter = Inter({ subsets: ["latin"] });
+const siteTitle = siteData.title
+const siteTagline = siteData.tagline
 
 export const metadata: Metadata = {
-    title: "Honor Hive | Where Excellence Meets Recognition",
-    description: "Where Excellence Meets Recognition",
+    title: `${siteTitle} | ${siteTagline}`,
+    description: siteTagline,
 };
 
 export default function RootLayout({
